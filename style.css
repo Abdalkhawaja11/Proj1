@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif; /* أو أي خط آخر تفضله */
+    
+}
+    
+    .gradient-custom {
+        height: 100%;
+        width: 100%;
+        background: 
+            radial-gradient(circle at top left, #FFFF00, #000080),
+            linear-gradient(135deg, #0000FF, #FFFF00),
+            radial-gradient(circle at bottom right, #000080, #FFFFFF);
+        background-blend-mode: overlay, multiply, screen;
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+.card {
+    border: none;
+    border-radius: 15px; /* يمكنك تخصيص الحواف حسب الحاجة */
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
